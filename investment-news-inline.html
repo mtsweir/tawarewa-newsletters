@@ -1,0 +1,644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Investment News | Newsletter</title>
+
+    	<style type="text/css">
+			
+			/*//// RESET STYLES ////*/
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important; background-color:#efefed;}
+			table{border-collapse:collapse;}
+			img, a img{border:0; outline:none; text-decoration:none;}
+			h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+			p{margin: 1em 0;}
+
+            /*//// CLIENT-SPECIFIC STYLES ////*/
+            .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+            table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+            #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+            img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+            body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+			/*//// GENERAL STYLES ////*/
+			h1, h2, h3, h4{font-family:"Arial", Helvetica, sans-serif;}
+			h1, h1 a{color:#1c1264; font-size:26px; font-weight:700; line-height:115%; text-align:left; text-decoration:none; padding-bottom:10px;}
+			h2, h2 a{color:#000000; font-size:20px; font-weight:700; line-height:130%; text-align:left; text-decoration:none;}
+			h3, h3 a{color:#525252; font-size:16px; font-weight:700; line-height:115%; text-align:left; text-decoration:none;}
+            h4, h4 a{color:#777777; font-size:16px; font-weight:100; line-height:115%; text-align:left; text-decoration:none;}
+			.messageHeaderContent, .headerContainerTitle, .mediaContainerDate, .introductionRightColumn, .articleLeftColumn, .introductionWideColumn, .alertLeftColumn, .callToActionContent, .callToActionButtonContent, .eventBlockMonth, .eventBlockDay, .eventContent, .footerContent{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+			body, #bodyTable{background-color:#FFFFFF;}
+			#emailContainer{width:100%;}
+            
+            /*//// HEADER ////*/
+            #headerBar{background-color:#1c1264; width:100%;}
+            .headerBarRow{background-color:#1c1264; font-size:5px; height:7px; color:#1c1264;}
+            .headerContainerTitle h4{text-align:center; padding-bottom:10px;}
+            
+            /*//// MEDIA BAR ////*/
+            #mediaContainerBlock{background-color:#fcde04; color:#FFFFFF; text-align: center; border-bottom:6px solid #dddfdf;}
+            .mediaContainerDate{text-align:left; color:#FFFFFF;padding-left:15px; color:#222222; font-size:14px; width:50%;}
+            .mediaContainerIcons{text-align:right; padding-right:10px; width:50%;}
+            .mediaContainerIcons img {margin-left:5px;}
+
+            /*//// LEAD ARTICLE MODULE ////*/
+            .introductionLeftColumn img{width:250px; height:auto;}
+            .featureImage{width:250px; height:auto;}
+            .introductionRightColumn{padding-left:30px; padding-bottom:30px; font-size:18px; color:#4d4c4c;}
+            .introductionWideColumn{font-size:18px; color:#4d4c4c;}
+            .introductionWideColumn h4{font-size:16px; font-weight:400; line-height:115%; color:#4d4c4c;}
+            .introductionRightColumn h1, .introductionRightColumn h2{padding-bottom:5px;}
+            .introductionRightColumn h2, .introductionRightColumn h2 a{font-size:26px; font-weight:700; line-height:115%; color:#1c1264;}
+            
+            /*//// ALERTS MODULE ////*/
+            .alertLeftColumn{width:25%; text-align:center;}
+            .alertLeftColumn h4{background-color:#cc0000; color:#FFFFFF; text-align:center; white-space:nowrap; padding:5px 20px 5px 20px; border-radius:4px;}
+
+            /*//// ARTICLES MODULE ////*/
+            .headerLogo{padding-top:15px; padding-bottom:10px; text-align:left;}
+            .headerTitle{padding-top:25px; text-align:left;}
+            .headerTitle h3{text-align:left;}
+            .articleLeftColumn{padding-right:25px;}
+            .articleSection{padding-top:20px; padding-bottom:20px;}
+            .articleSectionTop{padding-top:20px;}
+            .articleLeftColumn h2{padding-bottom:5px;}
+            .comments{color:#00afff; text-decoration:none;}
+
+            /*//// CTA MODULE ////*/
+            #callToActionContainer{background-color:#1c1264; padding:40px;}
+            #callToActionBlock{background-color:#1c1264;}
+            .callToActionContent h3{color:#FFFFFF; text-align:center; font-size:26px; font-weight:400; line-height:100%;}
+            .callToActionContent{color:#FFFFFF; font-size:16px; line-height:150%; padding-bottom:40px; text-align:center;}
+            .callToActionButton{background-color:#00afff; border-radius:4px; box-shadow:0 3px 0 #0e6789;}
+            .callToActionButtonContent{padding-top:15px; padding-right:40px; padding-bottom:15px; padding-left:40px;}
+            .callToActionButtonContent, .callToActionButtonContent a{color:#FFFFFF; display:block; font-size:20px; line-height:100%; letter-spacing:0; text-align:center; text-decoration:none;}
+
+            /*//// EVENT MODULE ////*/
+            #eventContainer{padding:40px 40px 20px 40px;}
+            .eventBlockCalendar{background-color:#FFFFFF; border:1px solid #DDDDDD;}
+            .eventBlockHeading{padding-bottom:20px;}
+            .eventBlockMonth{background-color:#fcde04; color:#444444; font-size:18px; font-weight:bold; line-height:100%; padding:10px;}
+            .eventBlockDay{background-color:#FFFFFF; color:#404040; font-size:48px; font-weight:bold; line-height:100%; padding:15px;}
+            .eventContent{color:#606060; font-size:16px; line-height:125%; padding-left:20px; padding-bottom:30px;}
+            .eventContent h3{line-height:125%; color:#000000; font-weight:700; font-size:24px;}
+            .eventDate{font-weight:100; text-transform:uppercase; font-size:14px; padding-bottom:10px;}
+
+            /*//// AD MODULE ////*/
+            .adBlockContainer{padding-top:20px; padding-bottom:20px;}
+
+            /*//// Footer ////*/
+            #footerContainer{background-color:#e6e6e5;}
+            .footerContent{font-size:14px;color:#888888;font-weight:400; padding-bottom:40px; padding-top:40px; background-color:#e6e6e5;}
+            .footerContent a{text-decoration:none; color:#555555;}
+
+            /*//// MOBILE STYLES ////*/
+			@media only screen and (max-width: 480px){
+				
+				td[id="headerBar"], td[id="headerContainer"], td[id="mediaContainer"], td[id="introductionContainer"], td[class="headerContainer"], td[id="articleContainer"], td[id="callToActionContainer"], td[id="eventContainer"], td[id="subFeatureContainer"], td[id="footerContainer"], td[class="spacerContainer"], td[class="adBlockContainer"]{padding-right:20px !important; padding-left:20px !important;}
+				
+				table[id="headerBar"], table[id="headerContainerBlock"], table[id="mediaContainerBlock"], table[id="introductionBlock"], table[class="headerBlock"], table[id="articleBlock"], table[id="adBlockOne"], table[class="articleBlock"], table[id="callToActionBlock"], table[id="eventBlock"], table[id="subFeatureBlock"], table[id="footerBlock"], table[class="spacerBlock"]{max-width:480px !important; width:100% !important;}
+
+                /*//// CLIENT-SPECIFIC STYLES ////*/
+                body{width:100% !important; min-width:100% !important;} /* Force iOS Mail to render the email at full width. */
+
+                /*//// GENERAL STYLES ////*/
+                h1,h1 a{font-size:26px !important; line-height:100% !important}
+                h2,h2 a{font-size:20px !important; line-height:110% !important}
+                h3{font-size:16px !important;}
+
+				img[id="logoImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
+
+                td[class="mediaContainerDate"]{text-align:left !important;}
+                td[class="mediaContainerIcons"]{text-align:right;}
+                
+                img[class="featureImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                td[class="introductionLeftColumn"], td[class="introductionRightColumn"], td[class="alertLeftColumn"], td[class="introductionWideColumn"]{display:block !important; padding:0 0 10px 0 !important; width:100% !important;}
+                
+                td[class="callToActionContent"]{text-align:left !important;}
+                table[class="callToActionButton"]{width:100% !important;}
+                .callToActionContent h3{font-weight:700 !important; font-size:20px !important; text-align:left !important; line-height:115% !important;}
+
+                table[class="eventBlockCalendar"]{width:100px !important;}
+
+                td[class="footerContent"]{font-size:15px !important;}
+
+                img[class="adUnit"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                img[class="spacerBar"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                img[class="articleImage"]{height:auto !important; max-width:120px !important; width:120px !important;}
+
+                img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+			}
+
+    	</style>
+
+    </head>
+    <body style="margin: 0;padding: 0;background-color: #FFFFFF;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100% !important;width: 100% !important;">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #FFFFFF;height: 100% !important;width: 100% !important;">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #efefed;height: 100% !important;width: 100% !important;">
+
+<!-- // BEGIN EMAIL -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;width: 100%;">
+
+	<tr>
+    	<td align="center" valign="top" id="headerBar" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1c1264;width: 100%;">
+
+            <!-- // BEGIN HEADER MESSAGE BLOCK -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="headerBar" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td align="center" valign="top" class="headerBarRow" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1c1264;font-size: 5px;height: 7px;color: #1c1264;">
+                        Investment Centre News
+                    </td>
+                </tr>
+            </table>
+            <!-- //END HEADER MESSAGE BLOCK -->
+
+        </td>
+    </tr>
+
+	<tr>
+    	<td align="center" valign="top" id="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN HEADER BLOCK -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="headerContainerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td align="center" valign="top" class="headerContainerLogo" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/header-investment-news.png" alt="Investment Centre News" width="600" height="105" class="flexibleImage" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr>
+            </table>
+            <!-- //END HEADER BLOCK -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" id="mediaContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN MEDIA BAR BLOCK -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="mediaContainerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #fcde04;color: #FFFFFF;text-align: center;border-bottom: 6px solid #dddfdf;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;width:100%;">
+                            <tr>
+                                <td align="left" valign="middle" class="mediaContainerDate" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;text-align: left;color: #222222;padding-left: 15px;font-size: 14px;width: 50%;">
+                                    9 March, 2015
+                                </td>
+                                <td align="right" valign="middle" class="mediaContainerIcons" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-align: right;padding-right: 10px;width: 50%;">
+                                    <a href="https://www.facebook.com/goodreturns" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="img/icon-facebook.png" alt="Follow us on Facebook" height="40" width="30" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;margin-left: 5px;"></a><a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="img/icon-twitter.png" alt="Follow the latest tweets on Twitter" height="40" width="30" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;margin-left: 5px;">
+                                </a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- //END MEDIA BAR BLOCK -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="introductionContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN FEATURED ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="introductionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSectionTop" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="introductionWideColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 18px;color: #4d4c4c;">
+                                    With reporting season underway it's useful to look at what future yield prospects for the market. In its latest Australasian Equities Commentary Harbour Asset Management's portfolio managers examine  what is happening at the moment.
+                                    <br>
+                                    <br>
+                                    <h4 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #4d4c4c;font-size: 16px;font-weight: 400;line-height: 115%;text-align: left;text-decoration: none;">&#8212; Philip Macalister</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END FEATURED ARTICLE MODULE // -->
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="spacerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="520" class="spacerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/bar-solid.gif" class="spacerBar" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr></tbody>
+            </table>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+            <!-- // BEGIN GROUP TITLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="headerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="headerLogo" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 15px;padding-bottom: 10px;text-align: left;">
+                                    <img src="img/logo-harbour-asset-management.png" width="160" height="37" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <h3 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #525252;font-size: 16px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Harbour Asset Management</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // END GROUP TITLE -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="articleContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">Yield pendulum at the apex</a></h2>
+                                    In its latest Australasian Equities Commentary Harbour Asset Management's portfolio managers discuss the outlook for dividend yields. - Defying gravity, it seems to us that the search for equity dividend yields has pushed the pendulum to its apex.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="spacerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="520" class="spacerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/bar-solid.gif" class="spacerBar" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr></tbody>
+            </table>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+            <!-- // BEGIN GROUP TITLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="headerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="headerLogo" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 15px;padding-bottom: 10px;text-align: left;">
+                                    <img src="img/logo-investment-news-pathfinder.png" width="134" height="32" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <h3 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #525252;font-size: 16px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Pathfinder Asset Management</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // END GROUP TITLE -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="articleContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">The perfect performance fee (part 3)</a></h2>
+                                    In the third part of its series on performance fees Pathfinder Asset Management reviews practical examples of how performance fees are calculated and disclosed by fund managers.  This involves a look at aspects of five performance fees for products.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="spacerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="520" class="spacerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/bar-solid.gif" class="spacerBar" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr></tbody>
+            </table>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+            <!-- // BEGIN GROUP TITLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="headerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="headerTitle" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 25px;text-align: left;">
+                                    <h3 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #525252;font-size: 16px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Monthly Market Review</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // END GROUP TITLE -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="subFeatureContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN SUB FEATURED ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="subFeatureBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="center" valign="top" class="introductionLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="img/logo-nikko-am.png" class="featureImage" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: 250px;height: auto;"></a>
+                                </td>
+                                <td align="left" valign="top" class="introductionRightColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-left: 30px;padding-bottom: 30px;font-size: 18px;color: #4d4c4c;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #1c1264;font-size: 26px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #1c1264;font-size: 26px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Nikko Asset Management</a></h2>
+                                    Check out the latest market stats in the latest monthly Market Review.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END SUB FEATURED ARTICLE MODULE // -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="spacerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="520" class="spacerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/bar-solid.gif" class="spacerBar" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr></tbody>
+            </table>
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+            <!-- // BEGIN GROUP TITLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="headerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="headerTitle" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 25px;text-align: left;">
+                                    <h3 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #525252;font-size: 16px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Other news</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // END GROUP TITLE -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="articleContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">Match-fixing in funds management</a></h2>
+                                    Whoever leaked information the FMA was investigating Milford Asset Management for suspected market manipulation had very good timing. - I was thinking about this last night when watching news about the Cricket World Cup. We have heard about manipulation.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">NZX boss indicates no big plans for Fundsource</a></h2>
+                                    NZX chief executive Tim Bennett has indicated there is no growth strategy for research house Fundsource. - NZX announced its annual results yesterday. Revenues for the year of $65.2 million were up 3.8% on 2013, driven by growth in NZX’s capital markets.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">More KiwiSaver information needed: Boyle</a></h2>
+                                    Questions are being asked about whether KiwiSaver members are switching providers without understanding the consequences. - In the last two months of 2014, more than 30,000 KiwiSaver members changed provider.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center" valign="top" class="spacerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="520" class="spacerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <img src="img/bar-solid.gif" class="spacerBar" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                    </td>
+                </tr></tbody>
+            </table>
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+            <!-- // BEGIN GROUP TITLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="headerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="headerLogo" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 15px;padding-bottom: 10px;text-align: left;">
+                                    <img src="img/logo-edison-investment-research.png" width="120" height="27" style="border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <h3 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #525252;font-size: 16px;font-weight: 700;line-height: 115%;text-align: left;text-decoration: none;">Edison Investment Reasearch</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // END GROUP TITLE -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="articleContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">Match-fixing in funds management</a></h2>
+                                    Whoever leaked information the FMA was investigating Milford Asset Management for suspected market manipulation had very good timing. - I was thinking about this last night when watching news about the Cricket World Cup. We have heard about manipulation.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">Double-digit returns with a double-digit discount</a></h2>
+                                    BB Biotech AG (BION) is a Swiss-based investment company specialising in the biotechnology sector, with a focus on mid-sized and larger companies that are already generating revenues.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+            <!-- // BEGIN ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="articleBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td class="articleSection" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 20px;padding-bottom: 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <tr>
+                                <td align="left" valign="top" class="articleLeftColumn" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-right: 25px;">
+                                    <h2 style="margin: 0;padding: 0;font-family: &quot;Arial&quot;, Helvetica, sans-serif;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;padding-bottom: 5px;"><a href="#" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-size: 20px;font-weight: 700;line-height: 130%;text-align: left;text-decoration: none;">Pan-Asian multi-manager solution</a></h2>
+                                    Witan Pacific Investment Trust (WPC) aims to achieve long-term capital and real dividend growth primarily through equity investments in the Asia-Pacific region (including Japan and Australia).
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- END ARTICLE MODULE // -->
+
+        </td>
+    </tr>
+
+    <tr>
+        <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            <!-- // SPACER -->
+            <br>
+            <br>
+            <!-- // END SPACER -->
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" id="footerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #e6e6e5;">
+
+            <!-- // BEGIN FOOTER BLOCK -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td align="center" valign="top" class="footerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;color: #888888;font-weight: 400;padding-bottom: 40px;padding-top: 40px;background-color: #e6e6e5;">
+                        <strong>You received this message because you are subscribed to the Weekly Wrap newsletter.</strong>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #555555;">unsubscribe</a> &bull; <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #555555;">set email preferences</a> &bull; <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #555555;">view in browser</a> &bull; <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #555555;">contact us</a>
+                        <br>
+                        <br>
+                        Tarawera Publishing Ltd, &bull; 1448a Hinemoa Street, Rotorua, New Zealand
+                        <br>
+                        <br>
+                        &copy; 2015 Tarawera Publishing Limited. &bull; All rights reserved. &bull; <a href="#" target="_blank" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #555555;">Privacy Policy</a>
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+            <!-- END FOOTER BLOCK // -->
+
+        </td>
+    </tr>
+</table>
+<!-- END EMAIL // -->
+
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

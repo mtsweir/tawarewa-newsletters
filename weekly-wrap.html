@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -6,127 +5,134 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     	<title>Weekly Wrap | Newsletter</title>
 
-    <style type="text/css">
-			
-	/*//// RESET STYLES ////*/
-	body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important; background-color:#efefed;}
-	table{border-collapse:collapse;}
-	img, a img{border:0; outline:none; text-decoration:none;}
-	h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
-	p{margin: 1em 0;}
+        <style type="text/css">
+            
+            /*//// RESET STYLES ////*/
+            body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important; background-color:#efefed;}
+            table{border-collapse:collapse;}
+            img, a img{border:0; outline:none; text-decoration:none;}
+            h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+            p{margin: 1em 0;}
 
-    /*//// CLIENT-SPECIFIC STYLES ////*/
-    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
-    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
-    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
-    #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
-    img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
-    body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+            /*//// CLIENT-SPECIFIC STYLES ////*/
+            .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+            table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+            #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+            img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+            body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
 
-	/*//// GENERAL STYLES ////*/
-	h1, h2, h3, h4{font-family:"Arial", Helvetica, sans-serif;}
-	h1, h1 a{color:#1c1264; font-size:26px; font-weight:700; line-height:115%; text-align:left; text-decoration:none; padding-bottom:10px;}
-	h2, h2 a{color:#000000; font-size:20px; font-weight:700; line-height:130%; text-align:left; text-decoration:none;}
-	h3, h3 a{color:#525252; font-size:16px; font-weight:700; line-height:115%; text-align:left; text-decoration:none;}
-    h4, h4 a{color:#777777; font-size:16px; font-weight:100; line-height:115%; text-align:left; text-decoration:none;}
-	.messageHeaderContent, .headerContainerTitle, .mediaContainerDate, .introductionRightColumn, .articleLeftColumn, .alertLeftColumn, .callToActionContent, .callToActionButtonContent, .eventBlockMonth, .eventBlockDay, .eventContent, .footerContent{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+            /*//// GENERAL STYLES ////*/
+            h1, h2, h3, h4{font-family:"Arial", Helvetica, sans-serif;}
+            h1, h1 a{color:#1c1264; font-size:26px; font-weight:700; line-height:115%; text-align:left; text-decoration:none; padding-bottom:10px;}
+            h2, h2 a{color:#000000; font-size:20px; font-weight:700; line-height:130%; text-align:left; text-decoration:none;}
+            h3, h3 a{color:#525252; font-size:16px; font-weight:700; line-height:115%; text-align:left; text-decoration:none;}
+            h4, h4 a{color:#777777; font-size:16px; font-weight:100; line-height:115%; text-align:left; text-decoration:none;}
+            .messageHeaderContent, .headerContainerTitle, .mediaContainerDate, .introductionRightColumn, .articleLeftColumn, .introductionWideColumn, .alertLeftColumn, .callToActionContent, .callToActionButtonContent, .eventBlockMonth, .eventBlockDay, .eventContent, .footerContent{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
 
-	body, #bodyTable{background-color:#efefed;}
-	#emailContainer{width:100%;}
-    
-    /*//// HEADER ////*/
-    .headerBarRow{background-color:#1c1264; font-size:9px; height:10px; color:#1c1264;}
-    .headerContainerTitle h4{text-align:center; padding-bottom:10px;}
-    
-    /*//// MEDIA BAR ////*/
-    #mediaContainerBlock{background-color:#fcde04; color:#FFFFFF; text-align: center; border-bottom:6px solid #dddfdf;}
-    .mediaContainerDate{text-align:left; color:#FFFFFF;padding-left:15px; color:#222222; font-size:14px}
-    .mediaContainerIcons{text-align:right; padding-right:10px;}
-    .mediaContainerIcons img {margin-left:5px;}
+            body, #bodyTable{background-color:#FFFFFF;}
+            #emailContainer{width:100%;}
+            
+            /*//// HEADER ////*/
+            #headerBar{background-color:#1c1264; width:100%;}
+            .headerBarRow{background-color:#1c1264; font-size:5px; height:7px; color:#1c1264;}
+            .headerContainerTitle h4{text-align:center; padding-bottom:10px;}
+            
+            /*//// MEDIA BAR ////*/
+            #mediaContainerBlock{background-color:#fcde04; color:#FFFFFF; text-align: center; border-bottom:6px solid #dddfdf;}
+            .mediaContainerDate{text-align:left; color:#FFFFFF;padding-left:15px; color:#222222; font-size:14px; width:50%;}
+            .mediaContainerIcons{text-align:right; padding-right:10px; width:50%;}
+            .mediaContainerIcons img {margin-left:5px;}
 
-    /*//// LEAD ARTICLE MODULE ////*/
-    .introductionLeftColumn img{width:250px; height:auto;}
-    .featureImage{width:250px; height:auto;}
-    .introductionRightColumn{padding-left:30px; padding-bottom:30px; font-size:18px; color:#4d4c4c;}
-    .introductionRightColumn h1, .introductionRightColumn h2{padding-bottom:5px;}
-    .introductionRightColumn h2, .introductionRightColumn h2 a{font-size:26px; font-weight:700; line-height:115%; color:#1c1264;}
-    
-    /*//// ALERTS MODULE ////*/
-    .alertLeftColumn{width:25%; text-align:center;}
-    .alertLeftColumn h4{background-color:#cc0000; color:#FFFFFF; text-align:center; white-space:nowrap; padding:5px 20px 5px 20px; border-radius:4px;}
+            /*//// LEAD ARTICLE MODULE ////*/
+            .introductionLeftColumn img{width:250px; height:auto;}
+            .featureImage{width:250px; height:auto;}
+            .introductionRightColumn{padding-left:30px; padding-bottom:30px; font-size:18px; color:#4d4c4c;}
+            .introductionWideColumn{font-size:18px; color:#4d4c4c;}
+            .introductionWideColumn h4{font-size:16px; font-weight:400; line-height:115%; color:#4d4c4c;}
+            .introductionRightColumn h1, .introductionRightColumn h2{padding-bottom:5px;}
+            .introductionRightColumn h2, .introductionRightColumn h2 a{font-size:26px; font-weight:700; line-height:115%; color:#1c1264;}
+            
+            /*//// ALERTS MODULE ////*/
+            .alertLeftColumn{width:25%; text-align:center;}
+            .alertLeftColumn h4{background-color:#cc0000; color:#FFFFFF; text-align:center; white-space:nowrap; padding:5px 20px 5px 20px; border-radius:4px;}
 
-    /*//// ARTICLES MODULE ////*/
-    .headerTitle{padding-top:25px; text-align:left;}
-    .headerTitle h3{text-align:left;}
-    .articleLeftColumn{padding-right:25px;}
-    .articleSection{padding-top:20px; padding-bottom:20px;}
-    .articleLeftColumn h2{padding-bottom:5px;}
-    .comments{color:#00afff; text-decoration:none;}
+            /*//// ARTICLES MODULE ////*/
+            .headerLogo{padding-top:15px; padding-bottom:10px; text-align:left;}
+            .headerTitle{padding-top:25px; text-align:left;}
+            .headerTitle h3{text-align:left;}
+            .articleLeftColumn{padding-right:25px;}
+            .articleSection{padding-top:20px; padding-bottom:20px;}
+            .articleSectionTop{padding-top:20px;}
+            .articleLeftColumn h2{padding-bottom:5px;}
+            .comments{color:#00afff; text-decoration:none;}
 
-    /*//// CTA MODULE ////*/
-    #callToActionContainer{background-color:#1c1264; padding:40px;}
-    #callToActionBlock{background-color:#1c1264;}
-    .callToActionContent h3{color:#FFFFFF; text-align:center; font-size:26px; font-weight:400; line-height:100%;}
-    .callToActionContent{color:#FFFFFF; font-size:16px; line-height:150%; padding-bottom:40px; text-align:center;}
-    .callToActionButton{background-color:#00afff; border-radius:4px; box-shadow:0 3px 0 #0e6789;}
-    .callToActionButtonContent{padding-top:15px; padding-right:40px; padding-bottom:15px; padding-left:40px;}
-    .callToActionButtonContent, .callToActionButtonContent a{color:#FFFFFF; display:block; font-size:20px; line-height:100%; letter-spacing:0; text-align:center; text-decoration:none;}
+            /*//// CTA MODULE ////*/
+            #callToActionContainer{background-color:#1c1264; padding:40px;}
+            #callToActionBlock{background-color:#1c1264;}
+            .callToActionContent h3{color:#FFFFFF; text-align:center; font-size:26px; font-weight:400; line-height:100%;}
+            .callToActionContent{color:#FFFFFF; font-size:16px; line-height:150%; padding-bottom:40px; text-align:center;}
+            .callToActionButton{background-color:#00afff; border-radius:4px; box-shadow:0 3px 0 #0e6789;}
+            .callToActionButtonContent{padding-top:15px; padding-right:40px; padding-bottom:15px; padding-left:40px;}
+            .callToActionButtonContent, .callToActionButtonContent a{color:#FFFFFF; display:block; font-size:20px; line-height:100%; letter-spacing:0; text-align:center; text-decoration:none;}
 
-    /*//// EVENT MODULE ////*/
-    #eventContainer{padding:40px 40px 20px 40px;}
-    .eventBlockCalendar{background-color:#FFFFFF; border:1px solid #DDDDDD;}
-    .eventBlockHeading{padding-bottom:20px;}
-    .eventBlockMonth{background-color:#fcde04; color:#444444; font-size:18px; font-weight:bold; line-height:100%; padding:10px;}
-    .eventBlockDay{background-color:#FFFFFF; color:#404040; font-size:48px; font-weight:bold; line-height:100%; padding:15px;}
-    .eventContent{color:#606060; font-size:16px; line-height:125%; padding-left:20px; padding-bottom:30px;}
-    .eventContent h3{line-height:125%; color:#000000; font-weight:700; font-size:24px;}
-    .eventDate{font-weight:100; text-transform:uppercase; font-size:14px; padding-bottom:10px;}
+            /*//// EVENT MODULE ////*/
+            #eventContainer{padding:40px 40px 20px 40px;}
+            .eventBlockCalendar{background-color:#FFFFFF; border:1px solid #DDDDDD;}
+            .eventBlockHeading{padding-bottom:20px;}
+            .eventBlockMonth{background-color:#fcde04; color:#444444; font-size:18px; font-weight:bold; line-height:100%; padding:10px;}
+            .eventBlockDay{background-color:#FFFFFF; color:#404040; font-size:48px; font-weight:bold; line-height:100%; padding:15px;}
+            .eventContent{color:#606060; font-size:16px; line-height:125%; padding-left:20px; padding-bottom:30px;}
+            .eventContent h3{line-height:125%; color:#000000; font-weight:700; font-size:24px;}
+            .eventDate{font-weight:100; text-transform:uppercase; font-size:14px; padding-bottom:10px;}
 
-    /*//// AD MODULE ////*/
-    .adBlockContainer{padding-top:20px; padding-bottom:20px;}
+            /*//// AD MODULE ////*/
+            .adBlockContainer{padding-top:20px; padding-bottom:20px;}
 
-    /*//// Footer ////*/
-    #footerContainer{background-color:#e6e6e5;}
-    .footerContent{font-size:14px;color:#888888;font-weight:400; padding-bottom:40px; padding-top:40px; background-color:#e6e6e5;}
-    .footerContent a{text-decoration:none; color:#555555;}
+            /*//// Footer ////*/
+            #footerContainer{background-color:#e6e6e5;}
+            .footerContent{font-size:14px;color:#888888;font-weight:400; padding-bottom:40px; padding-top:40px; background-color:#e6e6e5;}
+            .footerContent a{text-decoration:none; color:#555555;}
 
-    /*//// MOBILE STYLES ////*/
-	@media only screen and (max-width: 480px){
-		
-		td[id="headerBar"], td[id="headerContainer"], td[id="mediaContainer"], td[id="introductionContainer"], td[class="headerContainer"], td[id="articleContainer"], td[id="callToActionContainer"], td[id="eventContainer"], td[id="subFeatureContainer"], td[id="footerContainer"], td[class="spacerContainer"], td[class="adBlockContainer"]{padding-right:20px !important; padding-left:20px !important;}
-		
-		table[id="headerBar"], table[id="headerContainerBlock"], table[id="mediaContainerBlock"], table[id="introductionBlock"], table[class="headerBlock"], table[id="articleBlock"], table[id="adBlockOne"], table[class="articleBlock"], table[id="callToActionBlock"], table[id="eventBlock"], table[id="subFeatureBlock"], table[id="footerBlock"], table[class="spacerBlock"]{max-width:480px !important; width:100% !important;}
+            /*//// MOBILE STYLES ////*/
+            @media only screen and (max-width: 480px){
+                
+                td[id="headerBar"], td[id="headerContainer"], td[id="mediaContainer"], td[id="introductionContainer"], td[class="headerContainer"], td[id="articleContainer"], td[id="callToActionContainer"], td[id="eventContainer"], td[id="subFeatureContainer"], td[id="footerContainer"], td[class="spacerContainer"], td[class="adBlockContainer"]{padding-right:20px !important; padding-left:20px !important;}
+                
+                table[id="headerBar"], table[id="headerContainerBlock"], table[id="mediaContainerBlock"], table[id="introductionBlock"], table[class="headerBlock"], table[id="articleBlock"], table[id="adBlockOne"], table[class="articleBlock"], table[id="callToActionBlock"], table[id="eventBlock"], table[id="subFeatureBlock"], table[id="footerBlock"], table[class="spacerBlock"]{max-width:480px !important; width:100% !important;}
 
-        /*//// CLIENT-SPECIFIC STYLES ////*/
-        body{width:100% !important; min-width:100% !important;} /* Force iOS Mail to render the email at full width. */
+                /*//// CLIENT-SPECIFIC STYLES ////*/
+                body{width:100% !important; min-width:100% !important;} /* Force iOS Mail to render the email at full width. */
 
-        /*//// GENERAL STYLES ////*/
-        h1,h1 a{font-size:26px !important; line-height:100% !important}
-        h2,h2 a{font-size:20px !important; line-height:110% !important}
-        h3{font-size:16px !important;}
+                /*//// GENERAL STYLES ////*/
+                h1,h1 a{font-size:26px !important; line-height:100% !important}
+                h2,h2 a{font-size:20px !important; line-height:110% !important}
+                h3{font-size:16px !important;}
 
-		img[id="logoImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                img[id="logoImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
 
-        td[class="mediaContainerDate"]{text-align:left !important;}
-        td[class="mediaContainerIcons"]{text-align:right;}
-        
-        img[class="featureImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
-        td[class="introductionLeftColumn"], td[class="introductionRightColumn"], td[class="alertLeftColumn"]{display:block !important; padding:0 0 10px 0 !important; width:100% !important;}
-        
-        td[class="callToActionContent"]{text-align:left !important;}
-        table[class="callToActionButton"]{width:100% !important;}
-        .callToActionContent h3{font-weight:700 !important; font-size:20px !important; text-align:left !important; line-height:115% !important;}
+                td[class="mediaContainerDate"]{text-align:left !important;}
+                td[class="mediaContainerIcons"]{text-align:right;}
+                
+                img[class="featureImage"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                td[class="introductionLeftColumn"], td[class="introductionRightColumn"], td[class="alertLeftColumn"], td[class="introductionWideColumn"]{display:block !important; padding:0 0 10px 0 !important; width:100% !important;}
+                
+                td[class="callToActionContent"]{text-align:left !important;}
+                table[class="callToActionButton"]{width:100% !important;}
+                .callToActionContent h3{font-weight:700 !important; font-size:20px !important; text-align:left !important; line-height:115% !important;}
 
-        table[class="eventBlockCalendar"]{width:100px !important;}
+                table[class="eventBlockCalendar"]{width:100px !important;}
 
-        td[class="footerContent"]{font-size:15px !important;}
+                td[class="footerContent"]{font-size:15px !important;}
 
-        img[class="adUnit"]{height:auto !important; max-width:600px !important; width:100% !important;}
-        img[class="spacerBar"]{height:auto !important; max-width:600px !important; width:100% !important;}
-        img[class="articleImage"]{height:auto !important; max-width:120px !important; width:120px !important;}
-	}
+                img[class="adUnit"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                img[class="spacerBar"]{height:auto !important; max-width:600px !important; width:100% !important;}
+                img[class="articleImage"]{height:auto !important; max-width:120px !important; width:120px !important;}
 
-    </style>
+                img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+            }
+
+        </style>
 
     </head>
     <body>
@@ -161,7 +167,7 @@
             <table border="0" cellpadding="0" cellspacing="0" width="600" id="headerContainerBlock">
                 <tr>
                     <td align="center" valign="top" class="headerContainerLogo">
-                        <img src="http://placehold.it/600x105" alt="Your weekly news round up" width="600" height="105" id="logoImage">
+                        <img src="img/header-weekly-wrap.png" alt="Your weekly news round up" width="600" height="105" id="logoImage" />
                     </td>
                 </tr>
             </table>
@@ -183,7 +189,7 @@
                                     24 Feb, 2015
                                 </td>
                                 <td align="right" valign="middle" class="mediaContainerIcons">
-                                    <a href="https://www.facebook.com/goodreturns" target="_blank"><img src="http://placehold.it/40x30" alt="Follow us on Facebook" height="40" width="30"></a><a href="#" target="_blank"><img src="http://placehold.it/40x30" alt="Follow the latest tweets on Twitter" height="40" width="30">
+                                    <a href="https://www.facebook.com/goodreturns" target="_blank"><img src="img/icon-facebook.png" alt="Follow us on Facebook" height="40" width="30"></a><a href="#" target="_blank"><img src="img/icon-twitter.png" alt="Follow the latest tweets on Twitter" height="40" width="30">
                                 </td>
                             </tr>
                         </table>
@@ -471,29 +477,29 @@
                             </tr>
                             <tr>
                                 <td align="center" valign="top">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-        <td align="center" valign="top">
-            <table border="0" cellpadding="0" cellspacing="0" width="110" class="eventBlockCalendar">
-                <tr>
-                    <td align="center" valign="top" class="eventBlockMonth">
-                        March
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center" valign="top" class="eventBlockDay">
-                        7
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td align="left" valign="top" class="eventContent">
-            <h3>Looking for a change in direction?</h3>
-            <h5 class="eventDate">Running March 7 through April 14</h5>
-            Insurance Advisers wanted - Central Otago/Southland and Nelson. On target earnings of $150,000 plus (first year)
-        </td>
-    </tr>
-</table>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="110" class="eventBlockCalendar">
+                                                    <tr>
+                                                        <td align="center" valign="top" class="eventBlockMonth">
+                                                            March
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top" class="eventBlockDay">
+                                                            7
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="left" valign="top" class="eventContent">
+                                                <h3>Looking for a change in direction?</h3>
+                                                <h5 class="eventDate">Running March 7 through April 14</h5>
+                                                Insurance Advisers wanted - Central Otago/Southland and Nelson. On target earnings of $150,000 plus (first year)
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                         </table>
@@ -528,28 +534,28 @@
     <tr>
         <td align="center" valign="top" id="subFeatureContainer">
 
-<!-- // BEGIN SUB FEATURED ARTICLE MODULE -->
-<table border="0" cellpadding="0" cellspacing="0" width="600" id="subFeatureBlock">
-    <tr>
-        <td class="articleSection">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <!-- // BEGIN SUB FEATURED ARTICLE MODULE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="subFeatureBlock">
                 <tr>
-                    <td align="center" valign="top" class="introductionLeftColumn">
-                        <a href="#" target="_blank"><img src="img/feature-2.jpg" class="featureImage"></a>
-                    </td>
-                    <td align="left" valign="top" class="introductionRightColumn">
-                        <h2><a href="#">Sovereign's latest results were pleasing to its CEO</a></h2>
-                        but he says there's still more work to do in growing the NZ insurance market.
+                    <td class="articleSection">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="center" valign="top" class="introductionLeftColumn">
+                                    <a href="#" target="_blank"><img src="img/feature-2.jpg" class="featureImage"></a>
+                                </td>
+                                <td align="left" valign="top" class="introductionRightColumn">
+                                    <h2><a href="#">Sovereign's latest results were pleasing to its CEO</a></h2>
+                                    but he says there's still more work to do in growing the NZ insurance market.
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
+            <!-- END SUB FEATURED ARTICLE MODULE // -->
         </td>
     </tr>
-</table>
-<!-- END SUB FEATURED ARTICLE MODULE // -->
-
-        </td>
-    </tr>
+    
     <tr>
         <td>
             <!-- // SPACER -->
@@ -561,27 +567,27 @@
     <tr>
         <td align="center" valign="top" id="footerContainer">
 
-<!-- // BEGIN FOOTER BLOCK -->
-<table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock">
-    <tr>
-        <td align="center" valign="top" class="footerContent">
-            <strong>You received this message because you are subscribed to the Weekly Wrap newsletter.</strong>
-            <br>
-            <br>
-            <br>
-            <a href="#" target="_blank">unsubscribe</a> &bull; <a href="#" target="_blank">set email preferences</a> &bull; <a href="#" target="_blank">view in browser</a> &bull; <a href="#" target="_blank">contact us</a>
-            <br>
-            <br>
-            Tarawera Publishing Ltd, &bull; 1448a Hinemoa Street, Rotorua, New Zealand
-            <br>
-            <br>
-            &copy; 2015 Tarawera Publishing Limited. &bull; All rights reserved. &bull; <a href="#" target="_blank">Privacy Policy</a>
-            <br />
-            <br />
-        </td>
-    </tr>
-</table>
-<!-- END FOOTER BLOCK // -->
+            <!-- // BEGIN FOOTER BLOCK -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock">
+                <tr>
+                    <td align="center" valign="top" class="footerContent">
+                        <strong>You received this message because you are subscribed to the Weekly Wrap newsletter.</strong>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="#" target="_blank">unsubscribe</a> &bull; <a href="#" target="_blank">set email preferences</a> &bull; <a href="#" target="_blank">view in browser</a> &bull; <a href="#" target="_blank">contact us</a>
+                        <br>
+                        <br>
+                        Tarawera Publishing Ltd, &bull; 1448a Hinemoa Street, Rotorua, New Zealand
+                        <br>
+                        <br>
+                        &copy; 2015 Tarawera Publishing Limited. &bull; All rights reserved. &bull; <a href="#" target="_blank">Privacy Policy</a>
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+            <!-- END FOOTER BLOCK // -->
 
         </td>
     </tr>
